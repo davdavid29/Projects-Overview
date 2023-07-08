@@ -1,4 +1,3 @@
-
 # Projects
 Welcome to my portfolio! Here, I document a summary of my various projects.
 
@@ -19,6 +18,11 @@ Welcome to my portfolio! Here, I document a summary of my various projects.
 | [ATM Machine Code in Java Swing GUI with MySQL Database](https://github.com/davdavid29/Projects/tree/main/University%20Projects/ATM%20Machine%20Code%20in%20Java%20Swing%20GUI%20with%20MySQL%20Database) | This project implements a basic ATM machine using Java Swing GUI and a MySQL database through the use of the phpMyAdmin web application. The user can input their account number and PIN, withdraw or deposit money, and check their account balance. The program connects to a MySQL database to store account information and transactions. It uses event listeners to detect button clicks and perform corresponding actions. The program displays account information and transaction history in the GUI. | 2019 | CPE 112_K12 – Object Oriented Programming | Netbeans and phpMyAdmin (for MySQL Database administration) |
 
 ### SQL Projects
+| Project Name & Link | Project Description | Year | Company| Tools/Software |
+|--|--| --| -- | -- |
+| Stored Procedure Log Table | The table records all the DML operation in the SP. When a certain stored procedure runs, the log table automatically populated with the details of the sp operation like either update or insert plus it will also records the date and time when was the sp runs also the execution time. It will also handles runtime errors like when a data is not compatible to a column it will record that this SP not executed successfully there the Status for this SP is 'Error' plus the error message showing what is the cause for that error.  | June-July 2023 | Inchcape Digital - Digital Parts Platform | SSMS/ Azure SQL|
+| SQL Trigger History table | This table also records but this time it records all the inserted and updated data's in a certain table that the trigger is created. This trigger is automatically executed when a triggering action is done in the table. The history table shows that the data inserted in the history table is either 'A' for Added or inserted and 'U' for updated for the TransactionType then ff fields are the important fields that necessary to know the history for it. | May-June 2023| Inchcape Digital - Digital Parts Platform | SSMS/Azure SQL |
+
 #### Stored Procedure Log Table
 -	The table records all the DML operation in the SP. When a certain stored procedure runs, the log table automatically populated with the details of the sp operation like either update or insert plus it will also records the date and time when was the sp runs also the execution time. It will also handles runtime errors like when a data is not compatible to a column it will record that this SP not executed successfully there the Status for this SP is 'Error' plus the error message showing what is the cause for that error.
 - Used SQL techiques:
@@ -28,7 +32,7 @@ Welcome to my portfolio! Here, I document a summary of my various projects.
 	- [ERROR_NUMBER() and ERROR_MESSAGE()](https://inchcapeglobal.atlassian.net/wiki/spaces/~712020d33a6ad2745641638c70aa8c9b365e93/pages/6571851973) - system built-in function
 	- [$action](https://inchcapeglobal.atlassian.net/wiki/spaces/~712020d33a6ad2745641638c70aa8c9b365e93/pages/6580273186)  - system special column
 
-#### Trigger History table
+#### SQL Trigger History table
 -	This table also records but this time it records all the inserted and updated data's in a certain table that the trigger is created. This trigger is automatically executed when a triggering action is done in the table. The history table shows that the data inserted in the history table is either 'A' for Added or inserted and 'U' for updated for the TransactionType then ff fields are the important fields that necessary to know the history for it.
 
 
