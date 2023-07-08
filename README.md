@@ -25,7 +25,7 @@ Welcome to my portfolio! Here, I document a summary of my various projects.
 
 #### Stored Procedure Log Table
 -	The table records all the DML operation in the SP. When a certain stored procedure runs, the log table automatically populated with the details of the sp operation like either update or insert plus it will also records the date and time when was the sp runs also the execution time. It will also handles runtime errors like when a data is not compatible to a column it will record that this SP not executed successfully there the Status for this SP is 'Error' plus the error message showing what is the cause for that error.
-- Used SQL techiques:
+- Used SQL components/elements:
 	- Try-catch block (handling runtime errors) Note: Try-catch block is designed only to handles runtime errors not compilation errors. Compile errors occur during the compilation phase of the SQL code, before it is executed, and they prevent the code from being executed altogether.-   [Runtime and Compilation Error](https://inchcapeglobal.atlassian.net/wiki/spaces/~712020d33a6ad2745641638c70aa8c9b365e93/pages/6579487437)
 	-  [@@ROWCOUNT](https://inchcapeglobal.atlassian.net/wiki/spaces/~712020d33a6ad2745641638c70aa8c9b365e93/pages/6571917437/@@ROWCOUNT) - system variable
 	- [@@PROCID and System Catalog Views](https://inchcapeglobal.atlassian.net/wiki/spaces/~712020d33a6ad2745641638c70aa8c9b365e93/pages/6574801271/@@PROCID+and+System+Catalog+Views) - system variable
@@ -34,14 +34,14 @@ Welcome to my portfolio! Here, I document a summary of my various projects.
 
 #### SQL Trigger History table
 -	This table also records but this time it records all the inserted and updated data's in a certain table that the trigger is created. This trigger is automatically executed when a triggering action is done in the table. The history table shows that the data inserted in the history table is either 'A' for Added or inserted and 'U' for updated for the TransactionType then ff fields are the important fields that necessary to know the history for it.
-- Used SQL techiques:
+- Used SQL components/elements:
 	- IF() statement
 	- INSERTED and DELETED pseudo tables
 	- HASHBYTES and COALESCE functions
 	- UPDATE trigger function - **Returns a Boolean value that indicates whether an INSERT or UPDATE attempt was made on a specified column of a table or view**. UPDATE() is used anywhere inside the body of a Transact-SQL INSERT or UPDATE trigger to test whether the trigger should execute certain actions.
 	- GETDATE() function
-	- CASE WHEN
-	- EXISTS
+	- CASE WHEN - sql construct
+	- EXISTS - operator
 
 ### Python Projects
 
