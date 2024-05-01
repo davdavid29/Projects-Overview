@@ -46,5 +46,8 @@ Welcome to my portfolio! Here, I document a summary of my various projects.
 ### Python Projects
 
 ### Data Science and Engineering Projects
+| Project Name & Link | Project Description | Year | Tools/Software |
+| -- | -- | -- | -- |
+| [Covid-19 Reporting](https://github.com/davdavid29/Projects/tree/main/Data%20Science%20and%20Engineering%20Projects/ADF/Covid%20Reporting) | In this project, I used the following technologies along with their usages: Data Factory - for pipelining and automating workflows or activities, Data Lake for machine learning activities and data lakehouse data store, Azure Blob for data store, Databricks for complex transformation processes, HDInsights, Azure SQL for data warehousing data store, PowerBI for data visualization) | 2024 | Data Factory, Data Lake, Azure Blob, Databricks, HDInsights, Azure SQL, PowerBI |
 
 ### FAQs
