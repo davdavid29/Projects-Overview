@@ -5,7 +5,7 @@ Welcome to my portfolio! Here, I document a summary of my various projects.
 1. [University Projects](#university-projects)
 2. [SQL Projects](#sql-projects)
 3. [Python Projects](#python-projects)
-4. [Data Science and Engineering](#data-engineering)
+4. [Data Science and Engineering Projects](#data-engineering)
 5. [FAQs](#faqs)
 
 ### University Projects - Bachelor of Science in Computer Engineering 
@@ -45,6 +45,6 @@ Welcome to my portfolio! Here, I document a summary of my various projects.
 
 ### Python Projects
 
-### Data Science and Engineering
+### Data Science and Engineering Projects
 
 ### FAQs
